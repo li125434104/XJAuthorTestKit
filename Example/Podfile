@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XJAuthorTestKit_Example' do
+  pod 'XJAuthorTestKit', :path => '../'
+
+  target 'XJAuthorTestKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
