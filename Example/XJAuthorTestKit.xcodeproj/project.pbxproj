@@ -326,12 +326,14 @@
 				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/XJAuthorTestKit/XJAuthorTestKit.framework",
 				"${BUILT_PRODUCTS_DIR}/XJPrefrenceTestCategoryKit/XJPrefrenceTestCategoryKit.framework",
+				"${BUILT_PRODUCTS_DIR}/wgCommonKit/wgCommonKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XJAuthorTestKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XJPrefrenceTestCategoryKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/wgCommonKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

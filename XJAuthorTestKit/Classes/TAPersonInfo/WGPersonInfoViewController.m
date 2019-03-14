@@ -10,7 +10,7 @@
 
 #import "WGPersonInfoViewController.h"
 #import <XJPrefrenceTestCategoryKit/CTMediator+TAPersonPreference.h>
-//#import <wgCommonKit/UIImage+wgBundle.h>
+#import <wgCommonKit/UIImage+wgBundle.h>
 
 @interface WGPersonInfoViewController ()
 
@@ -75,8 +75,8 @@
     if (!_imgView) {
         _imgView = [[UIImageView alloc] initWithFrame:CGRectMake((WGWidth-150)*0.5, 300, 150, 150)];
         //[UIImage imageNamed:@“图片名"]方式加载本地图片，这种方式默认是从mainBundle中去加载图片
-        _imgView.image = [UIImage imageNamed:@"Group@%2x.png"];
-//        _imgView.image = [UIImage wg_imgWithName:@"Group" bundle:@"wgPersonInfoKit" targetClass:[self class]];
+//        _imgView.image = [UIImage imageNamed:@"Group@%2x.png"];
+        _imgView.image = [UIImage wg_imgWithName:@"Group" bundle:@"wgPersonInfoKit" targetClass:[self class]];
         _imgView.backgroundColor = [UIColor cyanColor];
     }
     return _imgView;

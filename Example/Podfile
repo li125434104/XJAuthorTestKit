@@ -1,5 +1,6 @@
 source 'https://github.com/li125434104/XJSpecs.git'
 source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/wgModularization/WGModulSpecs.git'
 
 use_frameworks!
 
